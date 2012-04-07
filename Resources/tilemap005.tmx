@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="72" height="43" tilewidth="10" tileheight="10">
+ <tileset firstgid="1" name="Tiles" tilewidth="10" tileheight="10">
+  <image source="tiles.png" width="60" height="80"/>
+  <tile id="22">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="Collectable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="bg" width="72" height="43">
+  <data encoding="base64" compression="zlib">
+   eJzFmtty2zAMRNWmGae+fIdf+v/f13YmnG5PdgFSUtoHTGJdbOFosYQo3rZtu73Hq4lbsZ/79POPHfGGWD3/O+I1bFuJKn/d//gVT8QD+8in40UeGuM7V/gph3H+Y4GZ2878XwODm+xzbM/m8yZ89FrITxkyv2fI2W1LLJljxeBFIvEZPMmH2nsiV+qBxyb9uO/tQjWmfKpa5Hewzl5CpHzIS3moNn7g/6+Izm/0njNfzSvl6bg5n2I+6keJjfJhnpVe3sw+x6ZjxPvNehm19Ng+5s3trC+nnRtihg81lPyFn5XLZ/OZ8eJKP+O7Ep+OEXVQ8am85iw+3yTO5NPVZ6UfslE+7A1Svqt8GN9CuLx0nCED5z3Om93YtuLPqZ5SOB3NcBnndXyqWkgefX+/v3fDjb3RXYLXSG93evn9/0Ui9Tt6zCyfSj+d/oeOnEdrzvxM/XR8un7ws/k4Rqse6vQzy+eB/cpKtVY9fzk+w7Of8jszfFSjV4nB5oqoGDnfZn2RAT3KsaGWOo+5SP4uz04/rm9SPjoWXMP2ik/nz9QTjxmfHZ+ZMcrlyD7osnlGju0477H9rRPyueL6Z4P64T4N8hnnuTqZ8Y3ETevrErjxHOVQ9Wd7+Lj8nd+4+85xfJbPF0SlH8eN2hjf2/nLUT6p1lhvynGFD7k4TjPe/r/4rJybcqs86AgfvQf/ig/9eS8bx+hMPqO+OHdI7Z7NZvBZPafL8Qw+yed07tXNmZENe6D/zUfHMs71zPJx4757nqt+y41t/4pPlWs3z55q0PVE3F4dn3qeM/isMhrHd3yq9zSzfZLqSLXEuaTUM4//9/JZ1dB9+9Mb0VO6cTnx4TGuP1RGaZ7e6Wdvb3iEz4juvrOvS/Whx7jP1NrK3NJZ+kk+2vG5m22X7eNzAt9ZzerH1VLVj1JDR/2H4Twl1ddz+/gcwvxYKy4cn8G387LP5KN5JTZkxNySfpwe0vN3VZ+pb07jmNbTdTtWX5pX15/oNXD+v/Nk6ijxcc9yiY/z3qTPvf482AxvmO3d+K66G6MdH/eewvHR6+XYzX2PzWtmLyPqJ9UY8+3000V6l+PmkhwfN9/Vec4ZYzzjKIfkKYnP13Ad6Xpn+HBu/Agf6inV0V5uI6eKT3XfOC+4wqda5zSrHR2rK/24tUhVjzbL5/c+epBeo5u/6Mbwo/rRfob6cZH04/i4d3Xjd1f5pLkv98zlNFONa5XGyKXST6UR/m56nzne26Vxih5dsXH6GXWQ8nX9QHW8MiFn+g/5uHsx/q7yqaJ798n8Kz04v5/VD9dhVfrRMc6t46reh1Mnes2uLjo+bi2Fi2qdwEwvmdbUuHV61JY7vlpL4TyGfqrXO8OnY02dPLe/mSV9dXz0WjsuXGPUPTMkPnq9zMutu3Ca4HrBxEfDrTGc1U93TMdH1yWv8Kn8051TaZFBPkd7pdVwWqn0k3xjz3XPnFPx+QlesdZa
+  </data>
+ </layer>
+ <objectgroup name="obj" width="72" height="43" opacity="0.8">
+  <object name="StartPoint" x="355" y="175"/>
+ </objectgroup>
+ <layer name="fg" width="72" height="43">
+  <data encoding="base64" compression="zlib">
+   eJzt0kERAAAIw7BZwb9JZHBAoqCPJgAAAPBTTQdwmr8AAAAAAAAA2KYBeBAAQw==
+  </data>
+ </layer>
+ <layer name="Blocking" width="72" height="43">
+  <data encoding="base64" compression="zlib">
+   eJzt1TEKwCAMBdDcIt7/pKV0aVN1Kx3yHkjUzU+IEQAA/CHL4ikXey55q/J5y1K7qjNmdu7sfP+I9SyWz/6++x9W//FZHiP65rOif/bM5z19AwAAAAAAAN87AMDZBDw=
+  </data>
+ </layer>
+</map>
